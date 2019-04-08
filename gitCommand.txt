@@ -1,0 +1,87 @@
+----
+.gitignore file defines files/dirs ignored by git
+---
+
+
+git init
+git status => all files in staging area (before commit)
+
+git rm --cached 1.txt - > remove a.txt from stage area
+git add *.js => add all js files to stage area
+
+git add . -> adding all files to stage area
+
+
+git ls-files -> list of files tracked by GIT
+
+git branch -a -> list of branches
+
+
+git log - > list of commits
+
+
+
+git commit -> command is used to save your changes to the local repository
+git commit -m "comment msg"
+
+git branch ->They are simply pointers to a specific commit
+
+
+git checkout -> this command lets you navigate between the branches created by git branch
+
+git checkout -b [yourbranchname] -> if you want to create a new branch AND check it out at the same time
+
+
+git merge => git merge bugFix 
+
+
+
+
+
+---------------------------
+clear
+
+where Im I?
+pwd -> persent working directory
+
+files list / detailed list:
+ls
+ls -l
+
+
+
+file content view
+cat 1.txt
+less 1.txt
+-
+
+CREATE file:
+touch demo.txt
+
+rename:
+mv 1.txt 11.txt
+
+delete:
+rm 1.txt
+
+directory creating
+mkdir proj
+
+delete directory
+rmdir 
+
+adding text into file AND file creating (appanding file on the end of the file)
+echo "hello world" >> test.txt
+
+unos texta u file ali podrazumeva brisanje postojeceg sadrzaja
+echo "HI" > test.txt
+
+
+
+
+
+
+
+
+
+
