@@ -39,6 +39,8 @@ git pull => getting lastest versions of files from origin
 
 git push => pushing local files to origin
 
+git Fetch origin => getting branches from origin
+
 
 ---------------------------
 clear
