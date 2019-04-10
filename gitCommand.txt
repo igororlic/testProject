@@ -35,7 +35,9 @@ git checkout -b [yourbranchname] -> if you want to create a new branch AND check
 git merge => git merge bugFix 
 
 
+git pull => getting lastest versions of files from origin
 
+git push => pushing local files to origin
 
 
 ---------------------------
