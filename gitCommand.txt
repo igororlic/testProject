@@ -1,13 +1,25 @@
 ----
 .gitignore file defines files/dirs ignored by git
----
 
+---
+git help <verb>
+git <verb> --help
 
 git init
+
+git clone <url>  .  =>get repository from URL to local location
+git clone ../GIT/Repo .   
+ 
+
 git status => all files in staging area (before commit)
+
+git diff => shows changes to code
 
 git rm --cached 1.txt - > remove a.txt from stage area
 git add *.js => add all js files to stage area
+
+git reset => remove all files form stage area
+git reset <fileName>> => remove all file form stage area
 
 git add . -> adding all files to stage area
 
@@ -33,6 +45,14 @@ git checkout -b [yourbranchname] -> if you want to create a new branch AND check
 
 
 git merge => git merge bugFix 
+
+git tag -a v2.0 -m "tag for v2.0"
+git tag -n => lista tagova sa commentom
+git push origin tagname -> pushing tag to remote
+
+git tag --delete tagname (delete tag from local)
+
+git push origin --delete v2.0 (delete tag from remote)
 
 
 git pull => getting lastest versions of files from origin
