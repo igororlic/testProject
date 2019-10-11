@@ -38,13 +38,30 @@ git commit -m "comment msg"
 
 git branch ->They are simply pointers to a specific commit
 
+git branch -f master HEAD~3 => moving master 3 steps back!
+
 
 git checkout -> this command lets you navigate between the branches created by git branch
 
 git checkout -b [yourbranchname] -> if you want to create a new branch AND check it out at the same time
 
 
-git merge => git merge bugFix 
+git merge => git merge bugFix  -> from master to bugFix
+
+git rebase master -> from bugFix to master 
+
+git checkout HEAD^^ -> is the grandparent of HEAD
+      Moving upwards one commit at a time with ^
+      Moving upwards a number of times with ~<num>
+
+
+
+There are two primary ways to undo changes in Git
+=>git reset HEAD~1 (local)
+=>git revert HEAD (on main repository)
+
+
+git cherry-pick commitNumberXY commitNumberXZ 
 
 git tag -a v2.0 -m "tag for v2.0"
 git tag -n => lista tagova sa commentom
